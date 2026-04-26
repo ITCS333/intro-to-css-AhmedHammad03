@@ -12,9 +12,9 @@
      - Remove default margin and padding (set both to 0)
 --------------------------------------------------------------- */
 body{
-   font-family: Arial;
-   background-color: #f5f5f5;
-   color: #333333;
+   font-family: Arial, sans-serif; 
+   background-color:#f5f5f5;
+   color:#333333;
    margin: 0px;
    padding: 0px;
 }
@@ -31,7 +31,7 @@ body{
    color: #ffffff;
    padding: 20px;
    text-align: center;
-
+}
 /* ---------------------------------------------------------------
    EXERCISE 3 — Header Heading
    Target only the <h1> that is a direct child of #main-header and:
@@ -40,7 +40,7 @@ body{
 --------------------------------------------------------------- */
 #main-header > h1 {
    font-size: 2.5rem;
-   margin: 0px;
+   margin: 0;
 }
 
 /* ---------------------------------------------------------------
@@ -76,8 +76,8 @@ nav a:hover{
      - Add 40px of padding on all sides
 --------------------------------------------------------------- */
 main {
-   width: 800px;
-   margin: auto;
+   max-width: 800px;
+   margin: 0 auto;
    padding: 40px;
 }
 /* ---------------------------------------------------------------
@@ -133,7 +133,7 @@ h2{
      - Change its text color to #ffffff
      - Change its left border color to #e67e22
 --------------------------------------------------------------- */
-.highlighted{
+.highlight{
             background-color:#f39c12;
             color: #ffffff;
             border-left: #e67e22;
@@ -168,7 +168,7 @@ cite{
    display:block;
    text-align: right;
    font-size: 0.9rem;
-   color: #777777
+   color: #777777;
    margin-top: 10px;
 }
 /* ---------------------------------------------------------------
