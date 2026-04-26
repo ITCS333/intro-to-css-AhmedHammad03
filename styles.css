@@ -3,7 +3,6 @@
    Your task is to write CSS rules below each comment block.
    DO NOT modify index.html.
    ============================================================ */
-
 /* ---------------------------------------------------------------
    EXERCISE 1 — Global / Reset Styles
    Target the <body> element and:
@@ -69,8 +68,6 @@ nav a:hover{
    text-decoration: underline;
    color: #ffffff;
 }
-
-
 /* ---------------------------------------------------------------
    EXERCISE 6 — Main Content Area
    Target the <main> element and:
@@ -83,7 +80,6 @@ main {
    margin: auto;
    padding: 40px;
 }
-
 /* ---------------------------------------------------------------
    EXERCISE 7 — Section Headings
    Target all <h2> elements and:
@@ -96,7 +92,6 @@ h2{
    border-bottom: 2px solid #f39c12;
    padding: 0px 0px 8px 0px;
 }
-
 /* ---------------------------------------------------------------
    EXERCISE 8 — Intro Paragraph
    Target the element with the class "intro" and:
@@ -109,7 +104,6 @@ h2{
       line-height: 1.8;
       font-style: italic;
 }
-
 /* ---------------------------------------------------------------
    EXERCISE 9 — Hobbies List
    Target the element with the class "hobbies-list" and:
@@ -132,8 +126,6 @@ h2{
   margin-bottom: 4px;
   border-left: 4px solid #2c3e50;
 }
-
-
 /* ---------------------------------------------------------------
    EXERCISE 10 — Highlighted List Item
    Target the element with the class "highlight" and:
@@ -179,7 +171,6 @@ cite{
    color: #777777
    margin-top: 10px;
 }
-
 /* ---------------------------------------------------------------
    EXERCISE 13 — Button Link
    Target the element with the class "btn" and:
@@ -200,8 +191,6 @@ cite{
    border-radius: 4px;
    font-size: 1rem;
 }
-
-
 /* ---------------------------------------------------------------
    EXERCISE 14 — Button Link Hover State
    Target the hover state of ".btn" and:
@@ -213,8 +202,6 @@ cite{
    background-color:#f39c12;
    transition:all 0.3s ease;
 }
-
-
 /* ---------------------------------------------------------------
    EXERCISE 15 — Footer
    Target the element with the id "main-footer" and:
@@ -230,6 +217,4 @@ cite{
    text-align:center;
    padding:20px;
    margin-top: 20px;
-}
-   
 }
